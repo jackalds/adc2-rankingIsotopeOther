@@ -279,6 +279,8 @@
 			$('.statement').width( options.forcedResponseWidth ).height( options.forcedResponseHeight );
 		}
 		
+		$(this).parents('.controlContainer').find('.statement .otherText').width( $(this).find('.statement').innerWidth() - 30 ).hide();
+		
 		//alert(dkselected);
 		if(!dkselected){
 			$container.isotope(istopeOptions);
