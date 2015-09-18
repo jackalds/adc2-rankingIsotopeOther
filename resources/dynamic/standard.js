@@ -15,8 +15,11 @@ $(window).load(function() {
 		showResponseHoverBorder: {%= (CurrentADC.PropValue("showResponseHoverBorder") = "1") %},
 		showRankMoveControls: {%= (CurrentADC.PropValue("showRankMoveControls") = "1") %},
 		controlAlign : '{%= CurrentADC.PropValue("controlAlign") %}',
+<<<<<<< HEAD
 		otherRID : '{%= CurrentADC.PropValue("otherRID") %}',
 		otherQID : '{%= CurrentADC.PropValue("otherQID") %}',
+=======
+>>>>>>> origin/master
 		setMax : parseInt('{%= CurrentADC.PropValue("maxRankedItems") %}'),
 		dkActivated : {%= (CurrentADC.PropValue("dkActivated") = "1") %},
 		layout : '{%= CurrentADC.PropValue("responseLayout") %}',

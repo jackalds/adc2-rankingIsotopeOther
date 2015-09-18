@@ -5,10 +5,17 @@
          version="2.0.0"
          askiaCompat="5.3.3">
   <info>
+<<<<<<< HEAD
     <name>adc2-rankingIsotopeOther</name>
     <guid>918f40bc-c410-47bf-8cef-233d411c142f</guid>
     <version>1.0.0</version>
     <date>2015-07-03</date>
+=======
+    <name>adc2-rankingIsotope</name>
+    <guid>918f40bc-c410-47bf-8cef-233d411c142f</guid>
+    <version>1.1.6</version>
+    <date>2013-07-04</date>
+>>>>>>> origin/master
     <description>
       <![CDATA[
         v1.1.2 - removed CSS3 Pie
@@ -44,7 +51,11 @@
     <output id="standard">
       <description><![CDATA[Output when the browser support Javascript]]></description>
       <condition><![CDATA[Browser.Support("javascript")]]></condition>
+<<<<<<< HEAD
       <content fileName="rankingOther.css" type="css" mode="static" position="head" />
+=======
+      <content fileName="ranking.css" type="css" mode="static" position="head" />
+>>>>>>> origin/master
       <content fileName="standard.css" type="css" mode="dynamic" position="head" />
       
       <content fileName="standard.html" type="html" mode="dynamic" position="placeholder" />
@@ -63,7 +74,11 @@
 	  <content fileName="jquery-ui-1.10.4.custom.min.js" type="javascript" mode="share" position="head"/>
 	  <content fileName="jquery.ui.touch-punch.min.js" type="javascript" mode="share" position="head"/>
       <content fileName="jquery.isotope.min.js" type="javascript" mode="static" position="head"/>
+<<<<<<< HEAD
       <content fileName="rankingOther.js" type="javascript" mode="static" position="head"/>
+=======
+      <content fileName="ranking.js" type="javascript" mode="static" position="head"/>
+>>>>>>> origin/master
       <content fileName="standard.js" type="javascript" mode="dynamic" position="foot" />
       <content fileName="standard_numeric.js" type="javascript" mode="dynamic" position="none" />
 	  <content fileName="uparrow.png" type="image" mode="static" position="none" />
@@ -150,6 +165,7 @@
         </options>
       </property>
 	</category>
+<<<<<<< HEAD
 	<category id="other" name="Other Response">
 	  <property xsi:type="standardProperty" id="otherQID" name="Other Question ID" type="string" mode="static">
         <description>
@@ -241,6 +257,8 @@
         </options>
       </property>
 	</category>
+=======
+>>>>>>> origin/master
 	
 	<category id="alignment" name="Alignment">
 	  <property xsi:type="standardProperty" id="responseTextAlign" name="Response Text Alignment" type="string" mode="static">

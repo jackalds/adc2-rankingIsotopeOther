@@ -57,6 +57,7 @@ Dim controlAlign =CurrentADC.PropValue("controlAlign")
 Dim rankMoveArrowColour =CurrentADC.PropValue("rankMoveArrowColour")
 
 Dim fontSize =CurrentADC.PropValue("fontSize")
+<<<<<<< HEAD
 
 Dim otherColourPrimary =CurrentADC.PropValue("otherColourPrimary")
 Dim otherColourSecondary =CurrentADC.PropValue("otherColourSecondary")
@@ -66,6 +67,8 @@ Dim otherBorderThickness =CurrentADC.PropValue("otherBorderThickness")
 Dim otherBorderStyle =CurrentADC.PropValue("otherBorderStyle")
 Dim otherShadow =CurrentADC.PropValue("otherShadow")
 Dim otherBorderRadius =CurrentADC.PropValue("otherBorderRadius")
+=======
+>>>>>>> origin/master
 %}
 
 /* General */
@@ -266,6 +269,7 @@ Dim otherBorderRadius =CurrentADC.PropValue("otherBorderRadius")
     color:rgb({%= nsResponseSelectedFontColour%}) !important;
 }
 
+<<<<<<< HEAD
 #adc_{%= CurrentADC.InstanceId%} .upRank, #adc_{%= CurrentADC.InstanceId%} .downRank { background-position:{%= rankMoveArrowColour%}; }
 
 #adc_{%= CurrentADC.InstanceId%} .otherText { 
@@ -299,3 +303,6 @@ Dim otherBorderRadius =CurrentADC.PropValue("otherBorderRadius")
 	box-shadow: {%= otherShadow%};
 	
 }
+=======
+#adc_{%= CurrentADC.InstanceId%} .upRank, #adc_{%= CurrentADC.InstanceId%} .downRank { background-position:{%= rankMoveArrowColour%}; }
+>>>>>>> origin/master
